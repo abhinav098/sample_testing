@@ -5,8 +5,8 @@ Given("User is on linkedin page") do
 end
 
 When("User enters email and password") do
-  $driver.find_element(:css, '.login-email').send_keys("abhinav098@live.in")
-  $driver.find_element(:css, '.login-password').send_keys("Manu098.")
+  $driver.find_element(:css, '.login-email').send_keys("XXXXXXXXXXXX")
+  $driver.find_element(:css, '.login-password').send_keys("XXXXXXXX")
 end
 
 When("Clicks submit button") do
